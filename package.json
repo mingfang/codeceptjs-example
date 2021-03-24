@@ -1,0 +1,19 @@
+{
+  "name": "codeceptjs-example",
+  "scripts": {
+    "test": "codeceptjs run -c codecept.conf.js --reporter mocha-multi",
+    "clean": "rm -r output || true"
+  },
+  "dependencies": {
+    "assert": "^2.0.0",
+    "codeceptjs": "2.6.11",
+    "codeceptjs-resemblehelper": "^1.9.3",
+    "mocha": "7.1.2",
+    "mocha-junit-reporter": "^1.23.3",
+    "mocha-multi": "^1.1.3",
+    "mochawesome": "^6.2.2",
+    "resemblejs": "3.2.4",
+    "unirest": "0.6.0",
+    "webdriverio": "^6.12.1"
+  }
+}
